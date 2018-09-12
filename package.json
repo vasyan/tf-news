@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "start": "poi ./src",
+    "build": "poi build ./src && ./copy-files.sh"
+  },
+  "devDependencies": {
+    "poi": "^10.2.10"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.0.3",
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "dompurify": "^1.0.8",
+    "mobx": "^5.1.0",
+    "mobx-react": "^5.2.8",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-router-dom": "^4.3.1"
+  }
+}
